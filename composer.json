@@ -1,0 +1,27 @@
+{
+    "name": "michaeldrennen/stats",
+    "description": "A simple library where I am going to put some useful statistical methods.",
+    "type": "library",
+    "require-dev": {
+        "phpunit/phpunit": "^9.5"
+    },
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "michaeldrennen",
+            "email": "michaeldrennen74@gmail.com"
+        }
+    ],
+    "minimum-stability": "stable",
+    "require": {},
+    "autoload": {
+        "psr-4": {
+            "MichaelDrennen\\Stats\\": "src/"
+        }
+    },
+    "autoload-dev": {
+        "psr-4": {
+            "MichaelDrennen\\Stats\\Tests\\": "tests/"
+        }
+    }
+}
