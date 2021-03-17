@@ -14,8 +14,8 @@ class StatsTest extends TestCase {
     public function percentIncreaseShouldReturnValue(){
         $currentValue = 1;
         $previousValue = .5;
-        $percentChange = Stats::percentIncrease($currentValue, $previousValue);
-        $this->assertEquals(100, $percentChange);
+        $percentChange = Stats::percentChange($currentValue, $previousValue);
+        $this->assertEquals(50, $percentChange);
     }
 
 }
